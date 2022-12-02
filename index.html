@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoang Dieu</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body onload="loadSound()">
+    <div class="wrapper">
+        <!-- Preloader -->
+        <div id="preloader">
+            <div class="spinner">
+                <div class="rect1"></div>
+                <div class="rect2"></div>
+                <div class="rect3"></div>
+                <div class="rect4"></div>
+                <div class="rect5"></div>
+            </div>
+        </div>
+    </div>
+    <div class="main-content">
+        <header class="container header active" id="home">
+            <div class="header-content">
+                <div class="left-header">
+                    <div class="h-shape"></div>
+                    <div class="image">
+                        <img src="img/hero.png" alt="">
+                    </div>
+                </div>
+                <div class="right-header">
+                    <h1 class="name">
+                        Hi, I'm <span>Hoang Dieu.</span>
+                        A IT Developer.
+                    </h1>
+                    <p>
+                        My dream job is to be an IT manager.
+                        If I want to make this dream come true, 
+                        I will have to work as a web developer for many years to accumulate more work experience for myself.
+                        Provided that I want to be an IT manager, I will have good promotion opportunities.
+                    </p>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="container about" id="about">
+                <div class="main-title">
+                    <h2>About <span>me</span><span class="bg-text"></span></h2>
+                </div>
+                <div class="about-container">
+                    <div class="left-about">
+                        <h4>Information About me</h4>
+                        <p>
+                            <i>Name:</i><b> &#20 Hoang Van Dieu</b><br>
+                            <i>Date of birth: </i> &#20 22/03/2002 <br>
+                            <i>Gender: </i> &#20 Male <br>
+                            <i>Address:</i> &#20 Nam Thang, Tien Hai, Thai Binh <br>
+                            <i>Work: </i> &#20<i><b>PTIT -</b></i>&#20Posts and Telecommunications Institute of Technology <br>
+                        </p>
+                    </div>
+                    <div class="right-about">
+                        <div class="about-item">
+                            <a href="https://www.facebook.com/hoangdieu.22022002/"><div class="abt-text">
+                                <p class="large-text"><i class="fab fa-facebook-f"></i></p>
+                                <p class="small-text">Facebook <br /> Contact</p>
+                            </div></a>
+                        </div>
+                        <div class="about-item">
+                            <a href="http://zaloapp.com/qr/p/9c3hy89az3v6"><div class="abt-text">
+                                <p class="large-text"><i class='fas fa-sms'></i></p>
+                                <p class="small-text">Zalo <br /> Contact</p>
+                            </div></a>
+                        </div>
+                        <div class="about-item">
+                                                
+                            <a href="tel:0387367162"><div class="abt-text">
+                                <p class="large-text"><i class='fas fa-phone-alt'></i></p>
+                                <p class="small-text">Phone <br />Number</p>
+                            </div></a>
+                        </div>
+                        <div class="about-item">
+                            <a href="https://mail.google.com/mail/u/0/#inbox?compose=new"><div class="abt-text">
+                                <p class="large-text"><i class='fas fa-envelope'></i></p>
+                                <p class="small-text">Mail <br />Contact</p>
+                            </div></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <div class="controls">
+            <div class="control active-btn" data-id="home" >
+                <i class="fas fa-home"></i>
+            </div>
+            <div class="control" data-id="about">
+                <i class="fas fa-user"></i>
+            </div>
+        </div>
+        <div class="theme-btn">
+            <i class="fas fa-adjust"></i>
+        </div>
+        <script src="app.js"></script>
+    </div>
+</body>
+</html>
