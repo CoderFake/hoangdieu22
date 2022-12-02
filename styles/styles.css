@@ -348,6 +348,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+  boder: 5%;
   border-radius: 50%;
   padding: 1rem;
 }
