@@ -348,8 +348,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  boder: 5%;
-  border-radius: 50%;
+  border-radius: 50px;
   padding: 1rem;
 }
 .main-btn::before {
